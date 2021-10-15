@@ -1,0 +1,11 @@
+[package]
+name = "stale-use-state"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = { git = "https://github.com/yewstack/yew.git", branch = "master" }
+yew-agent = { git = "https://github.com/yewstack/yew.git", branch = "master" }
+gloo-console = "0.1"
